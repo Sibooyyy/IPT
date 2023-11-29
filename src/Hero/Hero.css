@@ -13,21 +13,21 @@
 
 .hero-left h1 {
     font-size: 55px;
-    line-height: 1.2px;
+    line-height: 1.1px;
     font-weight: 600;
 }
 
 .hero-left h3 {
     font-size: 40px;
-    line-height: 1px;
+    line-height: 1.1px;
     font-weight: 400;
-    padding-left: 2px;
 }
 
 .hero-right {
     position: relative;
     width: 50%;
     height: auto;
+    
 }
 
 .hero-right img {
@@ -37,6 +37,7 @@
     height: 100%;
     width: auto;
     transform: translate(-50%, -50%);
+    
 }
 
 .hero-left button {
