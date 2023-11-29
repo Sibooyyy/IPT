@@ -1,0 +1,39 @@
+.about-header{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 5%;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+.about-left img{
+    position: sticky;
+    gap: 20px;
+    padding: 20px;
+    width: auto;
+    height: 800px;
+    border: none;
+}
+.about-us{
+    margin-top: 5%;
+    padding: auto;
+    gap: 50px;
+}
+.about-us p{
+    color: #272829;
+    font-size: 20px
+}
+.about-us h1{
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+}
+.body {
+    font-size: 17px;
+    font-weight: 300;
+}
+.about-header hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #c7c7c7;
+}

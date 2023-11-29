@@ -1,0 +1,105 @@
+.checkoutheader {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.billing-field {
+    justify-content: center;
+    display: absolute; 
+    width: 80%;
+    padding-top: 50px;
+    margin-left: 50px; 
+}
+
+.billing-field h1 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.billing-input {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-left: 50; 
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.billing-input input {
+    width: 60%; 
+    font-size: 20px;
+    height: 30px;
+    font-weight: 300;
+    margin-left: 50px; 
+    border-radius: 10px;
+    outline: none;
+}
+
+.payment-method {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 47px;
+    
+}
+.payment-method h1{
+    text-align: center;
+    font-weight: 300;
+}
+.payment-method span{
+    margin-top: 38px;
+    font-size: 20px;
+    font-weight: 300;
+    gap: 20px;
+}
+
+.payment-input  {
+    margin-top: 30px;
+    width: 100%; 
+    font-size: 20px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    gap: 50px;
+    font-weight: 300px;
+}
+.payment-input input{
+    width: 50%; 
+    display: flex;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 10px;
+    gap: 700px;
+    margin-left: 50px
+}
+.payment-input button {
+    width: 30%; 
+    height: 70px;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .billing-field {
+        width: 90%;
+    }
+
+    .billing-input input,
+    .payment-method input,
+    .payment-method button {
+        width: 100%;
+    }
+}
